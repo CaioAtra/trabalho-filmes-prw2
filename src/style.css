@@ -1,0 +1,23 @@
+body {
+  background: #f3f5f8;
+  color: #20242a;
+  min-height: 100vh;
+}
+.navbar-brand { letter-spacing: .3px; }
+main { min-height: calc(100vh - 130px); }
+.painel {
+  background: #fff;
+  border: 1px solid #e1e5ea;
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(20, 30, 50, .06);
+}
+.titulo-pagina { font-weight: 750; margin-bottom: 6px; }
+.subtitulo { color: #68717d; margin-bottom: 24px; }
+.table th { white-space: nowrap; }
+.acoes { display: flex; gap: 8px; flex-wrap: wrap; }
+.form-label { font-weight: 600; }
+@media (max-width: 576px) {
+  .painel { padding: 16px; }
+  .navbar .container { align-items: flex-start; gap: 8px; flex-direction: column; }
+}
